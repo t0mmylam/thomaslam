@@ -1,8 +1,8 @@
 import useDarkMode from "use-dark-mode";
 import { Tooltip, Button } from "@nextui-org/react";
-import { SunIcon, MoonIcon } from "@heroicons/react/24/outline";
+import { IconSun, IconMoon } from "@tabler/icons-react";
 
-export const ThemeSwitcher = () => {
+const ThemeSwitcher = () => {
     const darkMode = useDarkMode(false);
 
     const handleClick = () => {
@@ -15,13 +15,15 @@ export const ThemeSwitcher = () => {
             placement="bottom"
             content={darkMode.value ? "Light Mode" : "Dark Mode"}
         >
-            <Button isIconOnly>
+            <Button isIconOnly onClick={handleClick} variant="flat">
                 {darkMode.value ? (
-                    <SunIcon className='p-2.5' onClick={handleClick} />
+                    <IconSun stroke-width="1.25" />
                 ) : (
-                    <MoonIcon className='p-2.5' onClick={handleClick} />
+                    <IconMoon stroke-width="1.25" />
                 )}
             </Button>
         </Tooltip>
     );
 };
+
+export default ThemeSwitcher;
