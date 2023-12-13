@@ -3,7 +3,7 @@ import { Tooltip, Button } from "@nextui-org/react";
 import { IconSun, IconMoon } from "@tabler/icons-react";
 
 const ThemeSwitcher = () => {
-    const darkMode = useDarkMode(false);
+    const darkMode = useDarkMode();
 
     const handleClick = () => {
         darkMode.toggle();

@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import ProjectsTab from "./components/ProjectsTab";
 
 function App() {
-    const darkMode = useDarkMode(true);
+    const darkMode = useDarkMode();
 
     return (
         <main
