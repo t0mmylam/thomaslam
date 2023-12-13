@@ -37,7 +37,7 @@ const Footer = () => {
                         isLoading={isLoadingInstagram}
                         variant="flat"
                     >
-                        <IconBrandInstagram stroke-width="1.25" />
+                        <IconBrandInstagram strokeWidth="1.25" />
                     </Button>
                 </Link>
                 <Link href="https://www.linkedin.com/in/lamthomas/">
@@ -47,7 +47,7 @@ const Footer = () => {
                         isLoading={isLoadingLinkedin}
                         variant="flat"
                     >
-                        <IconBrandLinkedin stroke-width="1.25" />
+                        <IconBrandLinkedin strokeWidth="1.25" />
                     </Button>
                 </Link>
                 <Link href="https://github.com/t0mmylam">
@@ -57,12 +57,12 @@ const Footer = () => {
                         isLoading={isLoadingGithub}
                         variant="flat"
                     >
-                        <IconBrandGithub stroke-width="1.25" />
+                        <IconBrandGithub strokeWidth="1.25" />
                     </Button>
                 </Link>
                 <Link href="mailto:thomas.lam@columbia.edu">
                     <Button isIconOnly variant="flat">
-                        <IconMail stroke-width="1.25" />
+                        <IconMail strokeWidth="1.25" />
                     </Button>
                 </Link>
             </div>

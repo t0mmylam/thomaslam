@@ -36,7 +36,7 @@ const letterboxedSolver = {
 const iMessageWrapped = {
     title: "iMessage Wrapped",
     caption:
-        "A website that generates a Spotify Wrapped-style report for your iMessage conversations.",
+        "A MacOS application that generates a Spotify Wrapped-style report for your iMessage conversations.",
     link: "",
     github: "https://github.com/t0mmylam/imessage-wrapped",
     tags: ["Swift", "SQLite", "Shell"],
@@ -44,6 +44,29 @@ const iMessageWrapped = {
     featured: true,
     gradient:
         "from-emerald-500 from-10% via-emerald-500 via-30% to-blue-500 to-90%",
+};
+
+const personalWebsite = {
+    title: "Personal Website",
+    caption: "This website.",
+    link: ".",
+    github: "https://github.com/t0mmylam/thomaslam",
+    tags: ["TypeScript", "React", "TailwindCSS", ""],
+    date: "2021-2023",
+    featured: false,
+    gradient: "from-blue-500 via-indigo-500 to-purple-500",
+};
+
+const dot = {
+    title: ".dot",
+    caption:
+        "Script to setup and replicate my dev environment on any 64-bit macOS or Debian system.",
+    link: "",
+    github: "https://github.com/t0mmylam/.dot",
+    tags: ["Shell"],
+    date: "2023",
+    featured: false,
+    gradient: "from-emerald-500 via-emerald-500 to-teal-500",
 };
 
 const Badges: { [key: string]: string } = {
@@ -61,12 +84,15 @@ const Badges: { [key: string]: string } = {
     TailwindCSS:
         "https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white",
     Shell: "https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white",
+    Vite: "https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white",
 };
 
 const Projects: Project[] = [
     theCourseForum,
     letterboxedSolver,
     iMessageWrapped,
+    personalWebsite,
+    dot,
 ];
 
 export { Projects, Badges };

@@ -17,9 +17,9 @@ const ThemeSwitcher = () => {
         >
             <Button isIconOnly onClick={handleClick} variant="flat">
                 {darkMode.value ? (
-                    <IconSun stroke-width="1.25" />
+                    <IconSun strokeWidth="1.25" />
                 ) : (
-                    <IconMoon stroke-width="1.25" />
+                    <IconMoon strokeWidth="1.25" />
                 )}
             </Button>
         </Tooltip>
