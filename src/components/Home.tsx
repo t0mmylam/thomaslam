@@ -37,7 +37,7 @@ const Home = () => {
                 />
             </div>
             <h2 className="text-3xl font-bold pb-4">Featured Projects</h2>
-            <div className="flex gap-8">
+            <div className="flex justify-between">
                 {projects.map((project) =>
                     project.featured ? (
                         <ProjectCard key={project.title} project={project} displayDate={false}/>
