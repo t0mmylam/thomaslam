@@ -11,7 +11,7 @@ const ThemeSwitcher = () => {
 
     return (
         <Tooltip
-            key="bottom"
+            key="theme-switcher"
             placement="bottom"
             content={darkMode.value ? "Light Mode" : "Dark Mode"}
         >

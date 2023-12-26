@@ -20,15 +20,17 @@ const ProjectCard = (props: { project: Project; displayDate: boolean }) => {
                     ? project.link
                     : project.github
             }
+            className="w-full aspect-square"
         >
             <Card
                 key={project.title}
                 isPressable
                 isHoverable
                 disableRipple
+                fullWidth
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
-                className={`h-60 w-60 rounded-[14px] bg-gradient-to-r ${project.gradient} p-[2.3px]`}
+                className={`h-full rounded-[14px] bg-gradient-to-r ${project.gradient} p-[2.3px]`}
                 data-pressed={isHovered}
             >
                 <CardHeader className="absolute z-10 top-1 flex-col !items-start">

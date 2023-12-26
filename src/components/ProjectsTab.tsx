@@ -12,7 +12,7 @@ const ProjectsTab = () => {
             <h2 className="text-2xl  text-secondary text-center">
                 A list of things I've worked on...
             </h2>
-            <div className="grid grid-cols-3 gap-8 pt-8">
+            <div className="flex-col md:grid md:grid-cols-3 gap-2 pt-8">
                 {projects.map((project) => (
                     <ProjectCard key={project.title} project={project} displayDate={false}/>
                 ))}
