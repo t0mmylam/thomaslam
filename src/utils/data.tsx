@@ -100,9 +100,9 @@ const Badges: { [key: string]: string } = {
 };
 
 const Projects: Project[] = [
-    theCourseForum,
     iMessageWrapped,
     letterboxedSolver,
+    theCourseForum,
     chat,
     personalWebsite,
     dot,
