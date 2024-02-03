@@ -62,10 +62,21 @@ const personalWebsite = {
     caption: "This website.",
     link: ".",
     github: "https://github.com/t0mmylam/thomaslam",
-    tags: ["TypeScript", "React", "TailwindCSS", ""],
+    tags: ["TypeScript", "React", "TailwindCSS", "Netlify"],
     date: "2021-2023",
     featured: false,
     gradient: "from-red-500 via-indigo-500 to-purple-500",
+};
+
+const timeClockBot = {
+    title: "Time Clock Bot",
+    caption: "A Discord bot that tracks time for users.",
+    link: "",
+    github: "https://github.com/t0mmylam/time-clock-bot",
+    tags: ["Python", "SQLite", "Heroku"],
+    date: "2023",
+    featured: false,
+    gradient: "from-purple-500 via-rose-500 to-red-500",
 };
 
 const dot = {
@@ -97,6 +108,8 @@ const Badges: { [key: string]: string } = {
     Shell: "https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white",
     Vite: "https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white",
     Go: "https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white",
+    Heroku: "https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white",
+    Netlify: "https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7",
 };
 
 const Projects: Project[] = [
@@ -104,6 +117,7 @@ const Projects: Project[] = [
     letterboxedSolver,
     theCourseForum,
     chat,
+    timeClockBot,
     personalWebsite,
     dot,
 ];
