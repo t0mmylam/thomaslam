@@ -6,7 +6,7 @@ interface Project {
     tags: string[];
     date: string;
     featured: boolean;
-    gradient: string;
+    color: string;
 }
 
 const theCourseForum = {
@@ -18,8 +18,7 @@ const theCourseForum = {
     tags: ["Django", "Python", "PostgreSQL", "JavaScript"],
     date: "2022 - 2023",
     featured: true,
-    gradient:
-        "from-orange-500 from-10% via-orange-500 via-30% to-blue-500 to-90%",
+    color: "orange"
 };
 
 const letterboxedSolver = {
@@ -30,7 +29,7 @@ const letterboxedSolver = {
     tags: ["TypeScript", "React", "Python", "TailwindCSS"],
     date: "2023",
     featured: true,
-    gradient: "from-pink-500 via-rose-500 to-red-500",
+    color: "pink"
 };
 
 const iMessageWrapped = {
@@ -42,19 +41,19 @@ const iMessageWrapped = {
     tags: ["Swift", "SQLite", "Shell"],
     date: "2023",
     featured: true,
-    gradient:
-        "from-emerald-500 from-10% via-emerald-500 via-30% to-blue-500 to-90%",
+    color:
+        "#3b82f6"
 };
 
 const chat = {
     title: "TCP Chat Server",
     caption: "A CLI TCP chat server written in Go.",
     link: "",
-    github: "https://github.com/t0mmylam/chat-cli",
+    github: "https://github.com/t0mmylam/chat",
     tags: ["Go"],
     date: "2023",
     featured: false,
-    gradient: "from-purple-500 via-blue-500 to-blue-500",
+    color: "#2dd4bf"
 };
 
 const personalWebsite = {
@@ -65,7 +64,7 @@ const personalWebsite = {
     tags: ["TypeScript", "React", "TailwindCSS", "Netlify"],
     date: "2021-2023",
     featured: false,
-    gradient: "from-red-500 via-indigo-500 to-purple-500",
+    color: "white"
 };
 
 const timeClockBot = {
@@ -76,7 +75,7 @@ const timeClockBot = {
     tags: ["Python", "SQLite", "Heroku"],
     date: "2023",
     featured: false,
-    gradient: "from-purple-500 via-rose-500 to-red-500",
+    color: "#10b981"
 };
 
 const dot = {
@@ -88,7 +87,19 @@ const dot = {
     tags: ["Shell"],
     date: "2023",
     featured: false,
-    gradient: "from-emerald-500 via-emerald-500 to-teal-500",
+    color: "#a78bfa"
+};
+
+const airtableScripts = {
+    title: "Airtable Scripts",
+    caption:
+        "A collection of scripts to automate tasks on Airtable that I wrote for a friend.",
+    link: "",
+    github: "https://github.com/t0mmylam/airtable-scripts",
+    tags: ["JavaScript", "Airtable"],
+    date: "2023",
+    featured: false,
+    color: "#f43f5e"
 };
 
 const Badges: { [key: string]: string } = {
@@ -109,7 +120,10 @@ const Badges: { [key: string]: string } = {
     Vite: "https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white",
     Go: "https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white",
     Heroku: "https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white",
-    Netlify: "https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7",
+    Netlify:
+        "https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7",
+    Airtable:
+        "https://img.shields.io/badge/Airtable-18BFFF?style=for-the-badge&logo=Airtable&logoColor=white",
 };
 
 const Projects: Project[] = [
@@ -117,9 +131,10 @@ const Projects: Project[] = [
     letterboxedSolver,
     theCourseForum,
     chat,
-    timeClockBot,
     personalWebsite,
+    airtableScripts,
     dot,
+    timeClockBot,
 ];
 
 export { Projects, Badges };

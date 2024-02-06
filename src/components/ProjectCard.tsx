@@ -30,7 +30,10 @@ const ProjectCard = (props: { project: Project; displayDate: boolean }) => {
                 fullWidth
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
-                className={`h-full rounded-[14px] bg-gradient-to-r ${project.gradient} p-[2.3px]`}
+                className={`h-full rounded-[14px] p-[2.3px]`}
+                style={{
+                    background: `linear-gradient(to right, ${project.color}, ${project.color})`,
+                }}
                 data-pressed={isHovered}
             >
                 <CardHeader className="absolute z-10 top-1 flex-col !items-start">
