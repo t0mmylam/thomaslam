@@ -32,7 +32,9 @@ const ProjectCard = (props: { project: Project; displayDate: boolean }) => {
                 onMouseLeave={() => setIsHovered(false)}
                 className={`h-full rounded-[14px] p-[2.3px]`}
                 style={{
-                    background: `linear-gradient(to right, ${project.color}, ${project.color})`,
+                    background: `linear-gradient(to right, ${project.color}, ${project.color})`, 
+                    // i really don't like this but it's the only way to get the color to show up
+                    // look into border resizing for diff colors
                 }}
                 data-pressed={isHovered}
             >

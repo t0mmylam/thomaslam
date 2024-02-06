@@ -10,6 +10,7 @@ const Home = () => {
 
     const [width, setWidth] = useState<number>(window.innerWidth);
 
+    // debounce the window resize event to prevent performance issues and weird pfp resizing
     useEffect(() => {
         const handleResize = debounce(() => {
             setWidth(window.innerWidth);
@@ -56,10 +57,10 @@ const Home = () => {
                     className="border-2 border-foreground"
                 />
             </div>
-            <h2 className="text-3xl font-bold pb-4">Featured Projects</h2>
+            <h2 className="text-3xl font-bold pb-4">Current Projects</h2>
             <div className="flex md:flex-row flex-col lg:flex justify-center gap-2">
                 {projects.map((project) =>
-                    project.featured ? (
+                    project.current ? (
                         <ProjectCard
                             key={project.title}
                             project={project}
@@ -68,6 +69,7 @@ const Home = () => {
                     ) : null
                 )}
             </div>
+            {/* will eventually move this onto an about page */}
             <p className="pt-8 text-secondary">
                 Outside of programming, I enjoy listening to music {"("}check out my <Link href="https://open.spotify.com/user/lam.tommy" style={{ color: commonColors.green[500] }}>spotify</Link>{")"},
                 snowboarding, and trying new restaurants around NYC.

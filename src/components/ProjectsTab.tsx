@@ -13,6 +13,7 @@ const ProjectsTab = () => {
                 A list of things I've worked on...
             </h2>
             <div className="flex-col md:grid md:grid-cols-3 gap-2 pt-8">
+                {/* could also randomize here */}
                 {projects.map((project) => (
                     <ProjectCard key={project.title} project={project} displayDate={false}/>
                 ))}

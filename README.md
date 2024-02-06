@@ -4,4 +4,10 @@
 
 Source code for my [personal website](https://thomaslam.info) built with React and Vite in TypeScript.
 
-<!-- Add About Section, Experience, Interests, More Projects -->
+## Todos
+
+- [ ] Refactor code for better readability
+- [ ] Add About section
+- [ ] Add Experience section
+- [ ] Add Projects not on GitHub
+- [ ] Handle slug better

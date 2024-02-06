@@ -5,7 +5,7 @@ interface Project {
     github: string;
     tags: string[];
     date: string;
-    featured: boolean;
+    current: boolean;
     color: string;
 }
 
@@ -17,8 +17,8 @@ const theCourseForum = {
     github: "https://github.com/thecourseforum/theCourseForum2",
     tags: ["Django", "Python", "PostgreSQL", "JavaScript"],
     date: "2022 - 2023",
-    featured: true,
-    color: "orange"
+    current: true,
+    color: "orange",
 };
 
 const letterboxedSolver = {
@@ -28,8 +28,8 @@ const letterboxedSolver = {
     github: "https://github.com/t0mmylam/letterboxed-solver",
     tags: ["TypeScript", "React", "Python", "TailwindCSS"],
     date: "2023",
-    featured: true,
-    color: "pink"
+    current: true,
+    color: "pink",
 };
 
 const iMessageWrapped = {
@@ -40,9 +40,8 @@ const iMessageWrapped = {
     github: "https://github.com/t0mmylam/imessage-wrapped",
     tags: ["Swift", "SQLite", "Shell"],
     date: "2023",
-    featured: true,
-    color:
-        "#3b82f6"
+    current: true,
+    color: "#3b82f6",
 };
 
 const chat = {
@@ -52,8 +51,8 @@ const chat = {
     github: "https://github.com/t0mmylam/chat",
     tags: ["Go"],
     date: "2023",
-    featured: false,
-    color: "#2dd4bf"
+    current: false,
+    color: "#2dd4bf",
 };
 
 const personalWebsite = {
@@ -63,8 +62,8 @@ const personalWebsite = {
     github: "https://github.com/t0mmylam/thomaslam",
     tags: ["TypeScript", "React", "TailwindCSS", "Netlify"],
     date: "2021-2023",
-    featured: false,
-    color: "white"
+    current: false,
+    color: "white",
 };
 
 const timeClockBot = {
@@ -74,8 +73,8 @@ const timeClockBot = {
     github: "https://github.com/t0mmylam/time-clock-bot",
     tags: ["Python", "SQLite", "Heroku"],
     date: "2023",
-    featured: false,
-    color: "#10b981"
+    current: false,
+    color: "#10b981",
 };
 
 const dot = {
@@ -86,8 +85,8 @@ const dot = {
     github: "https://github.com/t0mmylam/.dot",
     tags: ["Shell"],
     date: "2023",
-    featured: false,
-    color: "#a78bfa"
+    current: false,
+    color: "#a78bfa",
 };
 
 const airtableScripts = {
@@ -98,8 +97,8 @@ const airtableScripts = {
     github: "https://github.com/t0mmylam/airtable-scripts",
     tags: ["JavaScript", "Airtable"],
     date: "2023",
-    featured: false,
-    color: "#f43f5e"
+    current: false,
+    color: "#f43f5e",
 };
 
 const Badges: { [key: string]: string } = {
@@ -126,6 +125,7 @@ const Badges: { [key: string]: string } = {
         "https://img.shields.io/badge/Airtable-18BFFF?style=for-the-badge&logo=Airtable&logoColor=white",
 };
 
+// maybe i should randomize the order of the projects
 const Projects: Project[] = [
     iMessageWrapped,
     letterboxedSolver,
