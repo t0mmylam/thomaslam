@@ -17,7 +17,7 @@ const theCourseForum = {
     github: "https://github.com/thecourseforum/theCourseForum2",
     tags: ["Django", "Python", "PostgreSQL", "JavaScript"],
     date: "2022 - 2023",
-    current: true,
+    current: false,
     color: "orange",
 };
 
@@ -51,7 +51,7 @@ const chat = {
     github: "https://github.com/t0mmylam/chat",
     tags: ["Go"],
     date: "2023",
-    current: false,
+    current: true,
     color: "#2dd4bf",
 };
 
