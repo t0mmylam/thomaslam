@@ -129,8 +129,8 @@ const Badges: { [key: string]: string } = {
 const Projects: Project[] = [
     iMessageWrapped,
     letterboxedSolver,
-    theCourseForum,
     chat,
+    theCourseForum,
     personalWebsite,
     airtableScripts,
     dot,

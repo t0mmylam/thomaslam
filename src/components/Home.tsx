@@ -71,8 +71,7 @@ const Home = () => {
             </div>
             {/* will eventually move this onto an about page */}
             <p className="pt-8 text-secondary">
-                Outside of programming, I enjoy listening to music {"("}check out my <Link href="https://open.spotify.com/user/lam.tommy" style={{ color: commonColors.green[500] }}>spotify</Link>{")"},
-                snowboarding, and trying new restaurants around NYC.
+                Outside of programming, I enjoy listening to music, snowboarding, and trying new restaurants around NYC.
             </p>
         </div>
     );
