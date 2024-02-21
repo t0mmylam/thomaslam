@@ -3,7 +3,6 @@ import { Projects } from "../utils/data";
 import ProjectCard from "./ProjectCard";
 import { useEffect, useState } from "react";
 import { debounce } from "lodash";
-import {commonColors} from "@nextui-org/theme";
 
 const Home = () => {
     const projects = Projects;
@@ -71,7 +70,8 @@ const Home = () => {
             </div>
             {/* will eventually move this onto an about page */}
             <p className="pt-8 text-secondary">
-                Outside of programming, I enjoy listening to music, snowboarding, and trying new restaurants around NYC.
+                Outside of programming, I enjoy listening to music,
+                snowboarding, and trying new restaurants around NYC.
             </p>
         </div>
     );
