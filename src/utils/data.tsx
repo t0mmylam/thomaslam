@@ -92,7 +92,7 @@ const dot = {
 const airtableScripts = {
     title: "Airtable Scripts",
     caption:
-        "A collection of scripts to automate tasks on Airtable that I wrote for a friend.",
+        "A collection of scripts to automate tasks on Airtable that I wrote for a social media management agency.",
     link: "",
     github: "https://github.com/t0mmylam/airtable-scripts",
     tags: ["JavaScript", "Airtable"],
