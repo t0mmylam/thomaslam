@@ -51,7 +51,7 @@ const chat = {
     github: "https://github.com/t0mmylam/chat",
     tags: ["Go"],
     date: "2023",
-    current: true,
+    current: false,
     color: "#2dd4bf",
 };
 
@@ -101,6 +101,17 @@ const airtableScripts = {
     color: "#f43f5e",
 };
 
+const musifest = {
+    title: "My Music Festival",
+    caption: "A music festival poster generator website based.",
+    link: "https://my-music-festival-52542.web.app/",
+    github: "https://github.com/t0mmylam/thomaslam",
+    tags: ["TypeScript", "React", "Chakra", "Firebase"],
+    date: "2024",
+    current: true,
+    color: "#AFE1AF",
+};
+
 const Badges: { [key: string]: string } = {
     Django: "https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white",
     Python: "https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54",
@@ -123,12 +134,15 @@ const Badges: { [key: string]: string } = {
         "https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7",
     Airtable:
         "https://img.shields.io/badge/Airtable-18BFFF?style=for-the-badge&logo=Airtable&logoColor=white",
+    Chakra: "https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white",
+    Firebase: "https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34",
 };
 
 // maybe i should randomize the order of the projects
 const Projects: Project[] = [
     iMessageWrapped,
     letterboxedSolver,
+    musifest,   
     chat,
     theCourseForum,
     personalWebsite,
