@@ -32,7 +32,7 @@ const Home = () => {
                         Thomas Lam
                     </h1>
                     <p className="pt-3 text-secondary max-w-md pb-8 lg:pb-0">
-                        I'm an undergraduate sophomore student pursuing a B.A.
+                        I'm an undergraduate junior student pursuing a B.A.
                         in Computer Science at{" "}
                         <Link href="https://www.columbia.edu/" color="success">
                             Columbia University
