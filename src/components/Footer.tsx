@@ -24,10 +24,12 @@ const Footer = () => {
         setIsLoadingInstagram(true);
     };
 
+    const currentYear = new Date().getFullYear();
+
     return (
         <div className="flex justify-between w-full">
             <Link href="." color="foreground">
-                Thomas Lam
+                Thomas Lam @ {currentYear}
             </Link>
             <div className="flex gap-2">
                 <Tooltip key="instagram" placement="top" content="Instagram">
