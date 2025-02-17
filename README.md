@@ -11,3 +11,4 @@ Source code for my [personal website](https://thomaslam.info) built with React a
 - [ ] Add Experience section
 - [ ] Add Projects not on GitHub
 - [ ] Handle slug better
+- [ ] Skills graphic
