@@ -114,11 +114,11 @@ const remod = {
 };
 
 const valentines = {
-    title: "Valentine's Day Website",
-    caption: "Interactive Valentine's Day proposal web app made with React and Tailwind CSS, featuring cute animations and responsive design",
+    title: "Valentines",
+    caption: "Interactive Valentine's Day proposal web app",
     link: "https://eleanor-is-dumb.netlify.app/",
     github: "https://github.com/t0mmylam/valentines",
-    tags: ["React", "TypeScript", "Tailwind CSS", "Vite", "Netlify"],
+    tags: ["React", "TypeScript", "Netlify", "Vite", "TailwindCSS"],
     date: "February 2025",
     current: true,
     color: "#ffcfff" // Matching the background color used in your app
